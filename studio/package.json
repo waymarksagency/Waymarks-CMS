@@ -1,0 +1,23 @@
+{
+  "name": "waymarks-studio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Waymarks content admin (Sanity Studio): blog posts, case studies, authors and topics",
+  "scripts": {
+    "dev": "sanity dev",
+    "build": "sanity build",
+    "deploy": "sanity deploy",
+    "seed": "sanity dataset import ../seed/seed.ndjson production --missing"
+  },
+  "engines": {
+    "node": ">=20.19"
+  },
+  "dependencies": {
+    "@sanity/icons": "latest",
+    "@sanity/vision": "latest",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "sanity": "latest",
+    "styled-components": "^6.1.18"
+  }
+}

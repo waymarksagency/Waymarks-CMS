@@ -1,0 +1,368 @@
+{
+ "hero": {
+  "srcset": "/blog/img/hero-420.d88f73bc.webp 420w, /blog/img/hero-600.b864fcf4.webp 600w, /blog/img/hero-860.0e7095e6.webp 860w",
+  "src": [
+   [
+    420,
+    "/blog/img/hero-420.d88f73bc.webp"
+   ],
+   [
+    600,
+    "/blog/img/hero-600.b864fcf4.webp"
+   ],
+   [
+    860,
+    "/blog/img/hero-860.0e7095e6.webp"
+   ]
+  ],
+  "ratio": 1.0412
+ },
+ "discovery": {
+  "srcset": "/blog/img/discovery-480.e649b37c.webp 480w, /blog/img/discovery-800.32b663b3.webp 800w, /blog/img/discovery-1200.a3820a04.webp 1200w, /blog/img/discovery-1600.4538d77d.webp 1600w",
+  "src": [
+   [
+    480,
+    "/blog/img/discovery-480.e649b37c.webp"
+   ],
+   [
+    800,
+    "/blog/img/discovery-800.32b663b3.webp"
+   ],
+   [
+    1200,
+    "/blog/img/discovery-1200.a3820a04.webp"
+   ],
+   [
+    1600,
+    "/blog/img/discovery-1600.4538d77d.webp"
+   ]
+  ],
+  "ratio": 2.2857
+ },
+ "design-systems": {
+  "srcset": "/blog/img/design-systems-400.1cc6d85b.webp 400w, /blog/img/design-systems-620.f2630b42.webp 620w, /blog/img/design-systems-960.cbf27b99.webp 960w",
+  "src": [
+   [
+    400,
+    "/blog/img/design-systems-400.1cc6d85b.webp"
+   ],
+   [
+    620,
+    "/blog/img/design-systems-620.f2630b42.webp"
+   ],
+   [
+    960,
+    "/blog/img/design-systems-960.cbf27b99.webp"
+   ]
+  ],
+  "ratio": 1.6027
+ },
+ "ux-problems": {
+  "srcset": "/blog/img/ux-problems-400.98f7814e.webp 400w, /blog/img/ux-problems-620.f994ed03.webp 620w, /blog/img/ux-problems-960.a17e68b2.webp 960w",
+  "src": [
+   [
+    400,
+    "/blog/img/ux-problems-400.98f7814e.webp"
+   ],
+   [
+    620,
+    "/blog/img/ux-problems-620.f994ed03.webp"
+   ],
+   [
+    960,
+    "/blog/img/ux-problems-960.a17e68b2.webp"
+   ]
+  ],
+  "ratio": 1.6
+ },
+ "t-branding": {
+  "srcset": "/blog/img/t-branding-360.2cf1e655.webp 360w, /blog/img/t-branding-560.cd786ea5.webp 560w, /blog/img/t-branding-800.9a330840.webp 800w",
+  "src": [
+   [
+    360,
+    "/blog/img/t-branding-360.2cf1e655.webp"
+   ],
+   [
+    560,
+    "/blog/img/t-branding-560.cd786ea5.webp"
+   ],
+   [
+    800,
+    "/blog/img/t-branding-800.9a330840.webp"
+   ]
+  ],
+  "ratio": 1.3333
+ },
+ "t-uiux": {
+  "srcset": "/blog/img/t-uiux-360.0902ddf7.webp 360w, /blog/img/t-uiux-560.12c67b1c.webp 560w, /blog/img/t-uiux-800.d295f133.webp 800w",
+  "src": [
+   [
+    360,
+    "/blog/img/t-uiux-360.0902ddf7.webp"
+   ],
+   [
+    560,
+    "/blog/img/t-uiux-560.12c67b1c.webp"
+   ],
+   [
+    800,
+    "/blog/img/t-uiux-800.d295f133.webp"
+   ]
+  ],
+  "ratio": 1.3333
+ },
+ "t-websites": {
+  "srcset": "/blog/img/t-websites-360.c6e4e5c2.webp 360w, /blog/img/t-websites-560.c5ff4009.webp 560w, /blog/img/t-websites-800.d3065378.webp 800w",
+  "src": [
+   [
+    360,
+    "/blog/img/t-websites-360.c6e4e5c2.webp"
+   ],
+   [
+    560,
+    "/blog/img/t-websites-560.c5ff4009.webp"
+   ],
+   [
+    800,
+    "/blog/img/t-websites-800.d3065378.webp"
+   ]
+  ],
+  "ratio": 1.3333
+ },
+ "t-saas": {
+  "srcset": "/blog/img/t-saas-360.1801ce73.webp 360w, /blog/img/t-saas-560.bbeeb5fa.webp 560w, /blog/img/t-saas-800.73fb9270.webp 800w",
+  "src": [
+   [
+    360,
+    "/blog/img/t-saas-360.1801ce73.webp"
+   ],
+   [
+    560,
+    "/blog/img/t-saas-560.bbeeb5fa.webp"
+   ],
+   [
+    800,
+    "/blog/img/t-saas-800.73fb9270.webp"
+   ]
+  ],
+  "ratio": 1.3333
+ },
+ "t-growth": {
+  "srcset": "/blog/img/t-growth-360.06c14e6f.webp 360w, /blog/img/t-growth-560.098ed99e.webp 560w, /blog/img/t-growth-800.0aa69647.webp 800w",
+  "src": [
+   [
+    360,
+    "/blog/img/t-growth-360.06c14e6f.webp"
+   ],
+   [
+    560,
+    "/blog/img/t-growth-560.098ed99e.webp"
+   ],
+   [
+    800,
+    "/blog/img/t-growth-800.0aa69647.webp"
+   ]
+  ],
+  "ratio": 1.3333
+ },
+ "t-ai": {
+  "srcset": "/blog/img/t-ai-360.603ed974.webp 360w, /blog/img/t-ai-560.baf30a3c.webp 560w, /blog/img/t-ai-800.29dbb562.webp 800w",
+  "src": [
+   [
+    360,
+    "/blog/img/t-ai-360.603ed974.webp"
+   ],
+   [
+    560,
+    "/blog/img/t-ai-560.baf30a3c.webp"
+   ],
+   [
+    800,
+    "/blog/img/t-ai-800.29dbb562.webp"
+   ]
+  ],
+  "ratio": 1.3333
+ },
+ "svc-mobile": {
+  "srcset": "/images/svc-mobile-640.b417630f.webp 640w, /images/svc-mobile-882.54040da8.webp 882w, /images/svc-mobile-1536.822927bd.webp 1536w",
+  "src": [
+   [
+    640,
+    "/images/svc-mobile-640.b417630f.webp"
+   ],
+   [
+    882,
+    "/images/svc-mobile-882.54040da8.webp"
+   ],
+   [
+    1536,
+    "/images/svc-mobile-1536.822927bd.webp"
+   ]
+  ],
+  "ratio": 1.9592
+ },
+ "svc-saas": {
+  "srcset": "/images/svc-saas-640.b2b91563.webp 640w, /images/svc-saas-882.81444ae7.webp 882w, /images/svc-saas-1756.f311bea0.webp 1756w",
+  "src": [
+   [
+    640,
+    "/images/svc-saas-640.b2b91563.webp"
+   ],
+   [
+    882,
+    "/images/svc-saas-882.81444ae7.webp"
+   ],
+   [
+    1756,
+    "/images/svc-saas-1756.f311bea0.webp"
+   ]
+  ],
+  "ratio": 1.9598
+ },
+ "svc-web": {
+  "srcset": "/images/svc-web-640.e994cfd1.webp 640w, /images/svc-web-882.e56a2632.webp 882w, /images/svc-web-1764.5b6ebe99.webp 1764w",
+  "src": [
+   [
+    640,
+    "/images/svc-web-640.e994cfd1.webp"
+   ],
+   [
+    882,
+    "/images/svc-web-882.e56a2632.webp"
+   ],
+   [
+    1764,
+    "/images/svc-web-1764.5b6ebe99.webp"
+   ]
+  ],
+  "ratio": 1.96
+ },
+ "svc-uiux": {
+  "srcset": "/images/svc-uiux-640.540b0cd6.webp 640w, /images/svc-uiux-882.563efb0f.webp 882w, /images/svc-uiux-1756.6456915a.webp 1756w",
+  "src": [
+   [
+    640,
+    "/images/svc-uiux-640.540b0cd6.webp"
+   ],
+   [
+    882,
+    "/images/svc-uiux-882.563efb0f.webp"
+   ],
+   [
+    1756,
+    "/images/svc-uiux-1756.6456915a.webp"
+   ]
+  ],
+  "ratio": 1.9598
+ },
+ "svc-brand": {
+  "srcset": "/images/svc-brand-640.ae29bc5b.webp 640w, /images/svc-brand-882.52d148d5.webp 882w, /images/svc-brand-1756.d9da64aa.webp 1756w",
+  "src": [
+   [
+    640,
+    "/images/svc-brand-640.ae29bc5b.webp"
+   ],
+   [
+    882,
+    "/images/svc-brand-882.52d148d5.webp"
+   ],
+   [
+    1756,
+    "/images/svc-brand-1756.d9da64aa.webp"
+   ]
+  ],
+  "ratio": 1.9598
+ },
+ "svc-mvp": {
+  "srcset": "/images/svc-mvp-640.ef32f516.webp 640w, /images/svc-mvp-882.3d2f24d6.webp 882w, /images/svc-mvp-1756.6ea46886.webp 1756w",
+  "src": [
+   [
+    640,
+    "/images/svc-mvp-640.ef32f516.webp"
+   ],
+   [
+    882,
+    "/images/svc-mvp-882.3d2f24d6.webp"
+   ],
+   [
+    1756,
+    "/images/svc-mvp-1756.6ea46886.webp"
+   ]
+  ],
+  "ratio": 1.9598
+ },
+ "svc-growth": {
+  "srcset": "/images/svc-growth-640.6de28810.webp 640w, /images/svc-growth-882.b04c1117.webp 882w, /images/svc-growth-1756.49eee7f8.webp 1756w",
+  "src": [
+   [
+    640,
+    "/images/svc-growth-640.6de28810.webp"
+   ],
+   [
+    882,
+    "/images/svc-growth-882.b04c1117.webp"
+   ],
+   [
+    1756,
+    "/images/svc-growth-1756.49eee7f8.webp"
+   ]
+  ],
+  "ratio": 1.9598
+ },
+ "about-group": {
+  "srcset": "/images/about-group-624.919e2d74.webp 624w, /images/about-group-1248.04066aed.webp 1248w, /images/about-group-1672.a437e2e9.webp 1672w",
+  "src": [
+   [
+    624,
+    "/images/about-group-624.919e2d74.webp"
+   ],
+   [
+    1248,
+    "/images/about-group-1248.04066aed.webp"
+   ],
+   [
+    1672,
+    "/images/about-group-1672.a437e2e9.webp"
+   ]
+  ],
+  "ratio": 1.8578
+ },
+ "waymarks-logo": {
+  "srcset": "/images/waymarks-logo-207.90e48411.webp 207w",
+  "src": [
+   [
+    207,
+    "/images/waymarks-logo-207.90e48411.webp"
+   ]
+  ],
+  "ratio": 6.4688
+ },
+ "about-creative-team": {
+  "srcset": "/images/about-creative-team-624.5a12b701.webp 624w, /images/about-creative-team-1248.eb379942.webp 1248w, /images/about-creative-team-1672.242fe4c3.webp 1672w",
+  "src": [
+   [
+    624,
+    "/images/about-creative-team-624.5a12b701.webp"
+   ],
+   [
+    1248,
+    "/images/about-creative-team-1248.eb379942.webp"
+   ],
+   [
+    1672,
+    "/images/about-creative-team-1672.242fe4c3.webp"
+   ]
+  ],
+  "ratio": 1.8578
+ },
+ "logo3d": {
+  "srcset": "/images/waymarks-3d-logo-480.0512a5a6.webp 480w",
+  "src": [
+   [
+    480,
+    "/images/waymarks-3d-logo-480.0512a5a6.webp"
+   ]
+  ],
+  "ratio": 1.0
+ }
+}
