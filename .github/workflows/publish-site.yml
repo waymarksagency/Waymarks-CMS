@@ -1,0 +1,45 @@
+# Builds the blog and case study pages from Sanity and uploads them to cPanel.
+# Runs when you publish in the Studio (Sanity webhook), once a day (for posts
+# scheduled with a future publish date), or when you click "Run workflow".
+name: Publish blog and case studies
+
+on:
+  repository_dispatch:
+    types: [sanity-publish]
+  workflow_dispatch:
+  schedule:
+    - cron: '23 0 * * *' # 06:23 in Dhaka
+
+concurrency:
+  group: publish-site
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Build pages from Sanity
+        run: node build/build.mjs
+        env:
+          SANITY_PROJECT_ID: ${{ secrets.SANITY_PROJECT_ID }}
+          SANITY_DATASET: production
+
+      - name: Upload to cPanel
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          local-dir: ./dist/
+          # The folder that holds your homepage index.html, ending with a slash, e.g. public_html/
+          server-dir: ${{ secrets.FTP_SERVER_DIR }}
+          # Only touches files this workflow uploaded before. Everything else on the server is left alone.
+          dangerous-clean-slate: false
