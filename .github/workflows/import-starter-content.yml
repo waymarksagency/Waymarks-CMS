@@ -1,0 +1,30 @@
+# One-time: imports the 9 current blog posts, 6 topics, the author and a sample
+# case study (as a draft) into Sanity. Safe to run again: it skips anything that exists.
+name: Import starter content
+
+on:
+  workflow_dispatch:
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: studio
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - run: npm install --no-audit --no-fund
+
+      - name: Import into the production dataset
+        run: npx sanity dataset import ../seed/seed.ndjson production --missing
+        env:
+          CI: true
+          SANITY_AUTH_TOKEN: ${{ secrets.SANITY_WRITE_TOKEN }}
+          SANITY_STUDIO_PROJECT_ID: ${{ secrets.SANITY_PROJECT_ID }}
+          SANITY_STUDIO_DATASET: production
